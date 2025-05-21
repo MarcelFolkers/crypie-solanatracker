@@ -1,0 +1,31 @@
+{
+    "name": "crypie/solanatracker-api-sdk",
+    "description": "PHP SDK for the Solana Tracker Data API",
+    "type": "library",
+    "license": "MIT",
+    "keywords": [
+        "solana",
+        "blockchain",
+        "cryptocurrency",
+        "api",
+        "sdk",
+        "solanatracker"
+    ],
+    "authors": [
+        {
+            "name": "Crypie",
+            "homepage": "https://crypie.nl"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "SolanaTracker\\DataApi\\": "src/SolanaTracker/DataApi/"
+        }
+    },
+    "minimum-stability": "stable"
+}
